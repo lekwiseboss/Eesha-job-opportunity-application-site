@@ -1,0 +1,33 @@
+body{
+    margin:none;
+    padding: 0;
+
+}
+div{
+    margin-top: 200px;
+}
+th{
+
+background-color: rgb(223, 233, 241);
+}
+th,td{
+    margin: 8PX;
+    padding: 4px;
+    border: 1px solid grey;
+   
+}
+table{
+    border-radius:px;
+    border-collapse: collapse;
+}
+button{
+    border: 0;
+    color: rgb(100, 100, 100);
+}
+#progress-50{
+
+}
+.Priority-High{
+    background-color:red ;
+    color: rgb(160, 24, 24);
+}
