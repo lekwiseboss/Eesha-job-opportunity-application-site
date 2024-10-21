@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Opportunities</title>
     <link rel="stylesheet" href="./styles.css">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">  <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
@@ -14,17 +14,17 @@
 
     <div id="nav-bar">
         <img id="logo" src="logo.jpg" alt="Brand-logo">
-    </div>
+      </div>
     <img src="tenor.gif" id="banner" alt="banner">
    <div class="container">
    
     <div class="about"> 
        
         <div class="description"> 
-            <h1 class="heading">Welcome to Eesha </h1>
+            <h1 class="heading">About Eesha </h1>
            <p style=" margin-top: 0;"> At Eesha, we're 
-             on an adventure to create the world's most highly
-              reputed and leading branding industry, and we're building it
+             on a mission to create the world's most highly
+              reputed branding industry, and we're building it
               completely physically and online. We offer several
                branding packages for our wide ranges of customer
                with about <b> 400,000+ </b> active customers worldwide.
@@ -32,16 +32,16 @@
           <p>
             We also offer 2 industry-focused bootcamps:
             <ol>
-               <a href="">
+              
                  <li>
-                    Eesha Full stack Developer bootcamps
+                    <a href="">Eesha Full stack Developer bootcamps  </a> 
                     </li>
-               </a> 
-               <a href=""> 
+             
+              
                  <li>
-                    Eesha Graphic Designing
+                    <a href=""> Eesha Graphic Designing</a>
                     </li>
-                </a>
+                
             </ol>
            </p>
         </div>
@@ -53,7 +53,42 @@
        
     </div>
 
-    <h2>Job  Opportunities</h2>
+    <h2 class="job-opp">Job  Opportunities</h2>
+    <div id="job-list">
+
+        <div class="job-box">
+            <h5>Frontend Developer</h5>
+            <ul>
+                <li>Abuja,Nigeria</li>
+                <li>$12,000</li>
+                <li>Mar 3,2002</li>
+            </ul>
+        </div>
+        <div class="job-box">
+            <h5> Full Stack Developer</h5>
+            <ul>
+                <li>Hapoel,Israel</li>
+                <li>$18,000</li>
+                <li>Aug 3,2012</li>
+            </ul>
+        </div>
+        <div class="job-box">
+            <h5> Machine Learning Engineer</h5>
+            <ul>
+                <li>Calabar,Nigeria</li>
+                <li>$22,000</li>
+                <li>Jun 3,2002</li>
+            </ul>
+        </div>
+        <div class="job-box">
+            <h5> Data Scientist</h5>
+            <ul>
+                <li> Remote</li>
+                <li> $8,000</li>
+                <li> August 12,2002</li>
+            </ul>
+        </div>
+    </div>
     <div id="jobs">
    <table  id="jobs-table">
     <tr class="jobs-header-row">
@@ -134,10 +169,10 @@
    </table>
  </div> 
  <div id="forms">
-    <h2>
+    <h2 >
         Submit Your Application
     </h2>
-    <form action="POST" id="application">
+    <form action="POST" style="margin:0 auto; width: auto;" id="application">
     <div>
         <div class="form-group">
                 <label for="name">Fullname</label>
@@ -147,12 +182,12 @@
         <div class="form-group">
             <label for="email" >Email</label>
         <br>
-        <input  name="email" type="email"required placeholder="JohnDoe@example.com" id="email">
+        <input name="email" type="email"required placeholder="JohnDoe@example.com" id="email">
     </div>
     <div class="form-group">
         <label for="number">Phone Number</label>
         <br>
-        <input name="" type="number" required placeholder="+234807668032" id="number">
+        <input  name="" type="number" required placeholder="+234807668032" id="number">
     </div>
     <div class="form-group">
         <label for="dob">Date Of Birth</label>
@@ -187,14 +222,14 @@
         
     </div>
     <div class="form-group">
-        <input style="border: none;" type="submit" value="Submit Application">
+        <input style="border: none; width:80%;justify-content: center; text-align:center; align-items: center; padding: auto; display:block; margin: 0 auto;"  type="submit" value="Submit Application">
     </div>
 </div>
     
         </form>
     </div>
  <div class="footer">
-    <div id="links">
+    <div id="links" >
         <ul>
             <li><a href="" target="_blank" rel="">Courses</a></li>
             <li><a href="" target="_blank" rel="">Youtube</a></li>
